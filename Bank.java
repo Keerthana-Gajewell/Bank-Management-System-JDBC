@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class Bank {
-    private Map<Integer, Double> accounts = new HashMap<>();
-    private Scanner sc = new Scanner(System.in);
+    private final Map<Integer, Double> accounts = new HashMap<>();
+    private final Scanner sc = new Scanner(System.in);
 
     public void start() {
         while (true) {
